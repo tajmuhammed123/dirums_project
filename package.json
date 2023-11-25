@@ -1,13 +1,13 @@
 {
-  "homepage":"https://tajmuhammed123.github.io/dirums_project/",
+  "homepage": "https://tajmuhammed123.github.io/dirums_project/",
   "name": "dirums",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -16,7 +16,6 @@
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.1.4",
     "autoprefixer": "^10.4.16",
-    "gh-pages": "^6.1.0",
     "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
     "react": "^18.2.0",
@@ -30,6 +29,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "gh-pages": "^6.1.0",
     "tailwindcss": "^3.3.5",
     "vite": "^5.0.0"
   }
