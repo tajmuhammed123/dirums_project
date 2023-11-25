@@ -1,0 +1,20 @@
+.image-container {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .image-container img{
+    height: 450px;
+    width: 100%;
+  }
+  .after {
+    content: '';
+  }
+  
+  .after:from-black {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+  
+  
